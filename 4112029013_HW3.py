@@ -28,7 +28,7 @@ formatted_time = time.ctime(modification_time)
 print(f'最後修改時間 (人類可讀格式):{formatted_time}')
 
 #僅刪除檔案
-#os.remove('CS/homework/homework.txt')
+os.remove('CS/homework/homework.txt')
 
 #刪除整個非空目錄
 shutil.rmtree('CS')
